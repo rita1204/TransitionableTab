@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A751F351FBB4AC3007B40A1 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A751F301FBB4AC3007B40A1 /* Options.swift */; };
-		4A751F361FBB4AC3007B40A1 /* DefineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A751F311FBB4AC3007B40A1 /* DefineAnimation.swift */; };
-		4A751F371FBB4AC3007B40A1 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A751F321FBB4AC3007B40A1 /* AnimationFactory.swift */; };
-		4A751F381FBB4AC3007B40A1 /* LayerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A751F331FBB4AC3007B40A1 /* LayerContext.swift */; };
-		4A751F391FBB4AC3007B40A1 /* CAMediaTimingFunction+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A751F341FBB4AC3007B40A1 /* CAMediaTimingFunction+Transition.swift */; };
 		4A751F411FBB4AE6007B40A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A751F401FBB4AE6007B40A1 /* AppDelegate.swift */; };
 		4A751F461FBB4AE6007B40A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A751F441FBB4AE6007B40A1 /* Main.storyboard */; };
 		4A751F481FBB4AE6007B40A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A751F471FBB4AE6007B40A1 /* Assets.xcassets */; };
@@ -19,8 +14,13 @@
 		4A751F511FBB4AFA007B40A1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A751F501FBB4AF9007B40A1 /* TabBarController.swift */; };
 		4A751F521FBB4B10007B40A1 /* TransitionableTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* TransitionableTab.framework */; };
 		4A751F531FBB4B10007B40A1 /* TransitionableTab.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* TransitionableTab.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4CBA82C22D3E14D4002AA1D1 /* TransitionableTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA82BC2D3E14D4002AA1D1 /* TransitionableTab.swift */; };
+		4CBA82C32D3E14D4002AA1D1 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA82BD2D3E14D4002AA1D1 /* AnimationFactory.swift */; };
+		4CBA82C42D3E14D4002AA1D1 /* CAMediaTimingFunction+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA82BE2D3E14D4002AA1D1 /* CAMediaTimingFunction+Transition.swift */; };
+		4CBA82C52D3E14D4002AA1D1 /* DefineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA82BF2D3E14D4002AA1D1 /* DefineAnimation.swift */; };
+		4CBA82C62D3E14D4002AA1D1 /* LayerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA82C02D3E14D4002AA1D1 /* LayerContext.swift */; };
+		4CBA82C72D3E14D4002AA1D1 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBA82C12D3E14D4002AA1D1 /* Options.swift */; };
 		52D6D9871BEFF229002C0205 /* TransitionableTab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* TransitionableTab.framework */; };
-		8933C7851EB5B820000D00A4 /* TransitionableTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* TransitionableTab.swift */; };
 		8933C7901EB5B82D000D00A4 /* TransitionableTabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* TransitionableTabTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,11 +56,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4A751F301FBB4AC3007B40A1 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
-		4A751F311FBB4AC3007B40A1 /* DefineAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineAnimation.swift; sourceTree = "<group>"; };
-		4A751F321FBB4AC3007B40A1 /* AnimationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
-		4A751F331FBB4AC3007B40A1 /* LayerContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerContext.swift; sourceTree = "<group>"; };
-		4A751F341FBB4AC3007B40A1 /* CAMediaTimingFunction+Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunction+Transition.swift"; sourceTree = "<group>"; };
 		4A751F3E1FBB4AE6007B40A1 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A751F401FBB4AE6007B40A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A751F451FBB4AE6007B40A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,9 +63,14 @@
 		4A751F4A1FBB4AE6007B40A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A751F4C1FBB4AE6007B40A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A751F501FBB4AF9007B40A1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4CBA82BC2D3E14D4002AA1D1 /* TransitionableTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionableTab.swift; path = TransitionableTab/TransitionableTab.swift; sourceTree = "<group>"; };
+		4CBA82BD2D3E14D4002AA1D1 /* AnimationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationFactory.swift; path = TransitionableTab/AnimationFactory.swift; sourceTree = "<group>"; };
+		4CBA82BE2D3E14D4002AA1D1 /* CAMediaTimingFunction+Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Transition.swift"; path = "TransitionableTab/CAMediaTimingFunction+Transition.swift"; sourceTree = "<group>"; };
+		4CBA82BF2D3E14D4002AA1D1 /* DefineAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefineAnimation.swift; path = TransitionableTab/DefineAnimation.swift; sourceTree = "<group>"; };
+		4CBA82C02D3E14D4002AA1D1 /* LayerContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LayerContext.swift; path = TransitionableTab/LayerContext.swift; sourceTree = "<group>"; };
+		4CBA82C12D3E14D4002AA1D1 /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Options.swift; path = TransitionableTab/Options.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* TransitionableTab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TransitionableTab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* TransitionableTab-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TransitionableTab-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8933C7841EB5B820000D00A4 /* TransitionableTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionableTab.swift; sourceTree = "<group>"; };
 		8933C7891EB5B82A000D00A4 /* TransitionableTabTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionableTabTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* TransitionableTab.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TransitionableTab.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* TransitionableTabTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TransitionableTabTests.plist; sourceTree = "<group>"; };
@@ -149,12 +149,12 @@
 		8933C7811EB5B7E0000D00A4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4A751F321FBB4AC3007B40A1 /* AnimationFactory.swift */,
-				4A751F341FBB4AC3007B40A1 /* CAMediaTimingFunction+Transition.swift */,
-				4A751F311FBB4AC3007B40A1 /* DefineAnimation.swift */,
-				4A751F331FBB4AC3007B40A1 /* LayerContext.swift */,
-				4A751F301FBB4AC3007B40A1 /* Options.swift */,
-				8933C7841EB5B820000D00A4 /* TransitionableTab.swift */,
+				4CBA82BD2D3E14D4002AA1D1 /* AnimationFactory.swift */,
+				4CBA82BE2D3E14D4002AA1D1 /* CAMediaTimingFunction+Transition.swift */,
+				4CBA82BF2D3E14D4002AA1D1 /* DefineAnimation.swift */,
+				4CBA82C02D3E14D4002AA1D1 /* LayerContext.swift */,
+				4CBA82C12D3E14D4002AA1D1 /* Options.swift */,
+				4CBA82BC2D3E14D4002AA1D1 /* TransitionableTab.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -282,6 +282,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -338,12 +339,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A751F361FBB4AC3007B40A1 /* DefineAnimation.swift in Sources */,
-				4A751F371FBB4AC3007B40A1 /* AnimationFactory.swift in Sources */,
-				4A751F351FBB4AC3007B40A1 /* Options.swift in Sources */,
-				4A751F391FBB4AC3007B40A1 /* CAMediaTimingFunction+Transition.swift in Sources */,
-				4A751F381FBB4AC3007B40A1 /* LayerContext.swift in Sources */,
-				8933C7851EB5B820000D00A4 /* TransitionableTab.swift in Sources */,
+				4CBA82C42D3E14D4002AA1D1 /* CAMediaTimingFunction+Transition.swift in Sources */,
+				4CBA82C32D3E14D4002AA1D1 /* AnimationFactory.swift in Sources */,
+				4CBA82C72D3E14D4002AA1D1 /* Options.swift in Sources */,
+				4CBA82C62D3E14D4002AA1D1 /* LayerContext.swift in Sources */,
+				4CBA82C22D3E14D4002AA1D1 /* TransitionableTab.swift in Sources */,
+				4CBA82C52D3E14D4002AA1D1 /* DefineAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
